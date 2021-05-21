@@ -1,0 +1,13 @@
+version: "3"
+services:
+    php-sagas-message-id-generator:
+        build:
+            context: ./resources/docker
+            args:
+                - DOCKER_USER
+                - UID
+        container_name: php-sagas-message-id-generator
+        hostname: php-sagas-message-id-generator
+        restart: on-failure
+        volumes:
+            - .:/var/www
