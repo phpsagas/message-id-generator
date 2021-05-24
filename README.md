@@ -26,4 +26,4 @@ composer require phpsagas/message-id-generator
 You can use `UuidBasedMessageIdGenerator` as `MessageIdGeneratorInterface` implementation.
 
 ## License
-Saga common is released under the [MIT license](LICENSE). 
+Saga message id generator is released under the [MIT license](LICENSE). 
