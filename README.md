@@ -9,7 +9,7 @@
 
 ## Requirements  
 - php: >= 7.1
-- [phpsagas/common](https://github.com/phpsagas/common)
+- [phpsagas/contracts](https://github.com/phpsagas/contracts)
 - ramsey/uuid: ^4.1
 
 ## About package

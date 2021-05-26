@@ -2,7 +2,7 @@
 
 namespace PhpSagas\MessageIdGenerator;
 
-use PhpSagas\Common\Message\MessageIdGeneratorInterface;
+use PhpSagas\Contracts\MessageIdGeneratorInterface;
 use Ramsey\Uuid\Uuid;
 
 /**

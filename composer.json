@@ -13,8 +13,8 @@
   ],
   "require": {
     "php": "^7.1 || ^8.0",
-    "phpsagas/common": "dev-main",
-    "ramsey/uuid": "^4.1"
+    "ramsey/uuid": "^4.1",
+    "phpsagas/contracts": "dev-main"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.3",
@@ -31,6 +31,7 @@
     }
   },
   "scripts": {
+    "tests": "./vendor/bin/phpunit tests/",
     "cs": "./vendor/bin/phpcs"
   }
 }
